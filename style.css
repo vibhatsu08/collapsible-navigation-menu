@@ -1,0 +1,28 @@
+.sidepanel {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+.sidepanel a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 8px 8px 32px;
+    display: block;
+}
+.sidepanel .closeButton {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 30px;
+}
+
+.openbutton {
+    font-size: 20px;
+    cursor: pointer;
+}
